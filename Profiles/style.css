@@ -28,3 +28,31 @@ header{
 nav a:hover {
     color: gold;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(212, 243, 87, 0.957);
+    padding: 2.5rem;
+}
+.btn {
+ color: gray;
+ text-decoration: none;
+ text-shadow: gold;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-right: 10%;
+}
+
+
+.hero img:hover {
+    box-shadow: blue;
+}
